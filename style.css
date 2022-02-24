@@ -97,6 +97,14 @@ button[disabled] {
   float: right;
 }
 
+.password-options {
+  text-align: center;
+}
+
+.password-options label {
+  padding-right: 10px;
+}
+
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -116,6 +124,12 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+}
+
+.errorWarn {
+  display: none;
+  padding-top: 10px;
+  color: red;
 }
 
 @media (max-width: 690px) {
