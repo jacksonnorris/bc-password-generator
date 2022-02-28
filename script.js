@@ -50,11 +50,9 @@ function randomString (str, len, prependStr) {
   for (let i = myPassword.length; i < len; i++) {
     myPassword += str.charAt(Math.floor(Math.random()*totalLen));
   }
-  console.log(myPassword);
   return myPassword;
 }
 function verifyPassword (uc, lc, num, sym, str, len) {
-  console.log("verify")
   if (uc) {
     var ucRegexp = /[A-Z]/;
     if (str.match(ucRegexp) == null) { console.log("errorUc: " + str); randomString (str,len); }
