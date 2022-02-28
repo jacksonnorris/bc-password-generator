@@ -131,6 +131,10 @@ button[disabled] {
   padding-top: 10px;
   color: red;
 }
+label,
+input {
+  cursor: pointer;
+}
 
 @media (max-width: 690px) {
   .btn {
